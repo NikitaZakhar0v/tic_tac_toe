@@ -13,7 +13,6 @@ public class Application {
         ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
         XoGames xoGames = context.getBean(XoGames.class);
         xoGames.startGame();
-        //mvnw exec:java -Dexec.mainClass="game.Application"
 
 
     }
